@@ -1,2 +1,3 @@
-# Content-Management-website
-This is our mini project of subject programing lab 2 , in this project we make a content management website where we can share our post to the world .
+# Task1-Content-management-tool
+A content management system, (CMS), is software used to manage content, allowing multiple contributors to create, edit and publish.
+

@@ -1,0 +1,135 @@
+/* Define the color palette */
+:root {
+  --primary-color: #4a90e2; /* Blue (adjusted) */
+  --secondary-color: #ffc107; /* Yellow (adjusted) */
+  --background-color: #f5f5f5; /* Light Gray (adjusted) */
+  --text-color: #333; /* Dark Gray */
+  --accent-color: #0069d9; /* Dark Blue (adjusted) */
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.container {
+  max-width: 90vw;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+header {
+  background-image: url('https://example.com/your-image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color);
+  background-color: var(--primary-color);
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h5 {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: var(--primary-color);
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 20px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: var(--secondary-color);
+}
+
+/* Section Styles */
+section {
+  padding: 20px;
+}
+
+h1#about {
+  color: var(--primary-color);
+}
+
+h4 {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Editor Styles */
+.editor {
+  margin-top: 20px;
+}
+
+.editor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.editor input[type="text"],
+.editor textarea {
+  margin-bottom: 10px;
+  width: 400px;
+  padding: 5px;
+  border: 1px solid var(--accent-color); /* Adding border for input fields */
+}
+
+.editor button {
+  padding: 5px 10px;
+  background-color: var(--accent-color);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.editor button:hover {
+  background-color: var(--secondary-color); /* Changing hover color */
+}
+
+/* Blog Post Styles */
+.blog-post {
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.blog-post h3 {
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.blog-post img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
